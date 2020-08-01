@@ -1,0 +1,33 @@
+---
+layout: post
+title: Git
+date: 2020-08-02 15:46
+comments: true
+external-url:
+categories: Git
+---
+
+>How to use **Git**
+
+```scala
+git init
+git status
+git remote add origin [path]
+git add .
+git pull origin master
+	git pull origin [branchname] --allow-unrelated-histories
+git push origin master
+
+```
+
+
+
+## git example
+
+ex1
+
+> (...) about ex1
+
+ex2:
+
+> (...) about ex2
