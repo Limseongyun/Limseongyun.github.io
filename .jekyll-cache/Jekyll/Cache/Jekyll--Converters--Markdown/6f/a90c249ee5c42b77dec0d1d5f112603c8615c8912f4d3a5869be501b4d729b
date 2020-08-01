@@ -1,0 +1,28 @@
+I"<blockquote>
+  <p>How to use <strong>Git</strong></p>
+</blockquote>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">git</span> <span class="n">init</span>
+<span class="n">git</span> <span class="n">status</span>
+<span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">origin</span> <span class="o">[</span><span class="kt">path</span><span class="o">]</span>
+<span class="n">git</span> <span class="n">add</span> <span class="o">.</span>
+<span class="n">git</span> <span class="n">pull</span> <span class="n">origin</span> <span class="n">master</span>
+	<span class="n">git</span> <span class="n">pull</span> <span class="n">origin</span> <span class="o">[</span><span class="kt">branchname</span><span class="o">]</span> <span class="o">--</span><span class="n">allow</span><span class="o">-</span><span class="n">unrelated</span><span class="o">-</span><span class="n">histories</span>
+<span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">master</span>
+
+</code></pre></div></div>
+
+<h2 id="git-example">git example</h2>
+
+<p>ex1</p>
+
+<blockquote>
+  <p>(…) about ex1</p>
+</blockquote>
+
+<p>ex2:</p>
+
+<blockquote>
+  <p>(…) about ex2</p>
+</blockquote>
+:ET

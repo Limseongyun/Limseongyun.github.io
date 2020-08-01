@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Git
-date: 2020-08-02 15:46
+title: Git..
+date: 2020-08-02 01:46
 comments: true
 external-url:
 categories: Git
