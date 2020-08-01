@@ -1,0 +1,23 @@
+---
+layout: post
+title: MathmaticsTest
+date: 2020-08-02 01:46
+comments: true
+external-url:
+categories: Mathmatics
+---
+<p>$$x+y$$</p>
+asdf
+<p>$\mathbf{X} = \left[\begin{array}
+{rrr}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{array}\right]
+$</p>
+<p>x+y</p>
+
+$\sum_{x = a}^{b} f(x)$
+
+
+
