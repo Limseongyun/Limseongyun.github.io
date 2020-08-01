@@ -1,0 +1,68 @@
+I"?<blockquote>
+  <p>How to use <strong>Git</strong></p>
+</blockquote>
+
+<h2 id="git-example">git example</h2>
+
+<pre><code class="language-git">git init
+git status
+git remote add origin [path]
+git add .
+git pull origin master
+	git pull origin [branchname] --allow-unrelated-histories
+git push origin master
+
+</code></pre>
+
+<p><img style="max-width: 100%; height: auto;" data-action="zoom" src="/assets/img/git.png" alt="relative" />
+<!-- result : /my-baseurl/assets/img/image.png --></p>
+
+<h2 id="python-example">python example</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"hi"</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hi</span><span class="p">():</span>
+	<span class="k">print</span><span class="p">(</span><span class="s">"hi"</span><span class="p">)</span>
+</code></pre></div></div>
+<h2 id="java-example">java example</h2>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">DoWhileLoopExample</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span> <span class="n">args</span><span class="o">[]){</span>
+         <span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">10</span><span class="o">;</span>
+         <span class="k">do</span><span class="o">{</span>
+              <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+              <span class="n">i</span><span class="o">--;</span>
+         <span class="o">}</span><span class="k">while</span><span class="o">(</span><span class="n">i</span><span class="o">&gt;</span><span class="mi">1</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<h2 id="js-example">js example</h2>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">gsgs</span><span class="dl">'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h2 id="rust-example">rust example</h2>
+<div class="language-rust highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">use</span> <span class="nn">std</span><span class="p">::</span><span class="n">io</span><span class="p">;</span>
+<span class="k">fn</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nd">println!</span><span class="p">(</span><span class="s">"Guess the number!"</span><span class="p">);</span>
+
+    <span class="nd">println!</span><span class="p">(</span><span class="s">"Please input your guess."</span><span class="p">);</span>
+
+    <span class="k">let</span> <span class="k">mut</span> <span class="n">guess</span> <span class="o">=</span> <span class="nn">String</span><span class="p">::</span><span class="nf">new</span><span class="p">();</span>
+
+    <span class="nn">io</span><span class="p">::</span><span class="nf">stdin</span><span class="p">()</span><span class="nf">.read_line</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span> <span class="n">guess</span><span class="p">)</span>
+        <span class="nf">.expect</span><span class="p">(</span><span class="s">"Failed to read line"</span><span class="p">);</span>
+
+    <span class="nd">println!</span><span class="p">(</span><span class="s">"You guessed: {}"</span><span class="p">,</span> <span class="n">guess</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>ex1</p>
+
+<blockquote>
+  <p>(…) about ex1</p>
+</blockquote>
+
+<p>ex2:</p>
+
+<blockquote>
+  <p>(…) about ex2</p>
+</blockquote>
+:ET

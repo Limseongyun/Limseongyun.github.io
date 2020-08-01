@@ -9,7 +9,9 @@ categories: Git
 
 >How to use **Git**
 
-```scala
+## git example
+
+```git
 git init
 git status
 git remote add origin [path]
@@ -20,9 +22,50 @@ git push origin master
 
 ```
 
+<img style="max-width: 100%; height: auto;" data-action="zoom" src='{{ "/assets/img/git.png" | relative_url }}' alt='relative'>
+<!-- result : /my-baseurl/assets/img/image.png -->
 
+## python example
 
-## git example
+``` python
+print("hi")
+def hi():
+	print("hi")
+```
+## java example
+```java
+class DoWhileLoopExample {
+    public static void main(String args[]){
+         int i=10;
+         do{
+              System.out.println(i);
+              i--;
+         }while(i>1);
+    }
+}
+```
+## js example
+``` js
+console.log('gsgs');
+```
+
+## rust example
+```rust
+use std::io;
+fn main() {
+    println!("Guess the number!");
+
+    println!("Please input your guess.");
+
+    let mut guess = String::new();
+
+    io::stdin().read_line(&mut guess)
+        .expect("Failed to read line");
+
+    println!("You guessed: {}", guess);
+}
+```
+
 
 ex1
 
